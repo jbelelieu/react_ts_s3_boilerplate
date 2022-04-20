@@ -1,0 +1,41 @@
+
+/**
+ * Fonts and Typography
+ */
+$font: 'Signika', Arial, Helvetica, sans-serif;
+$fontSize: 1em;
+$lineHeight: 1.5em;
+$fontColorPrimary: #111111;
+
+@function fontSizeAdjust($changeSteps) {
+    @return $fontSize + (0.1 * $changeSteps);
+}
+
+@function lineHeightAdjust($changeSteps) {
+    @return $lineHeight + (0.1 * $changeSteps);
+}
+
+/**
+ * Various Dimensions
+ */
+$borderRadius: 4px;
+$paddingBase: 16px;
+$paddingSizeStepChange: 4px;
+
+@function paddingAdjust($changeSteps) {
+    @return $paddingBase + (4 * $changeSteps);
+}
+
+/**
+ * Colors
+ */
+$colorGreenPrimary: #39E991;
+$colorGreenLighter: #67EEAA;
+$colorGreenDarker: #18D777;
+$colorGrayPrimary: #262833;
+$colorGraySecondary: #3c3f50;
+$colorGrayLight: #d1d1d1;
+
+/**
+ * Mixins
+ */

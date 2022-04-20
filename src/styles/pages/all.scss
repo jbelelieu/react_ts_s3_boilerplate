@@ -1,0 +1,28 @@
+header {
+    background-color: $colorGreenPrimary;
+    padding: $paddingBase;
+
+    img {
+        max-height: 42px;
+        width: auto;
+    }
+}
+
+footer {
+    border-top: 1px solid $colorGrayLight;
+    padding: $paddingBase;
+    font-size: 12px;
+    color: $colorGrayLight;
+}
+
+.section {
+    margin: 0 auto;
+    max-width: 700px;
+    padding-top: $paddingBase;
+    padding-bottom: paddingAdjust(10);
+}
+
+.holder {
+    margin-top: 42px;
+    margin-bottom: 42px;
+}

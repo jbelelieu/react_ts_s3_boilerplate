@@ -1,22 +1,23 @@
-import * as React from 'react';
-import './App.css';
+import * as React from "react";
+import { Routes, Route } from "react-router-dom";
+import Footer from "./component/Footer";
+import Header from "./component/Header";
+import Home from './container/Home';
 
-const logo = require('./logo.svg');
+function App() {
+  return (
+    <>
+      <Header />
 
-class App extends React.Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.tsx</code> and save to reload.
-        </p>
+      <div className="holder">
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
       </div>
-    );
-  }
+
+      <Footer />
+    </>
+  );
 }
 
 export default App;
