@@ -1,26 +1,16 @@
 
-# Local Setup
+# Typescript React with S3 Deployment Boilerplate
 
-```
-npm install
-npm start
-```
+- React w/ Typescript
+- React Router
+- S3 Github Action: build and push to S3
+- SCSS
 
-# Style Sheets
+# Todo
 
-- Written in SCSS; automatically compiles.
-- All references found in `src/styles/primary.scss`
-
-# Deploying
-
-## Automatic Deployments
-
-The app will auto-deploy via Github Actions when pushed to the "develop" branch.
-
-## Manual Deployments
-
-If you need to manually deploy for some reason:
-
-- Run `npm run build`
-- Go to S3 and upload the contents of the `build` folder into the `app.pikle.it` bucket.
-- This will deploy it to `https://app.pikle.it/`
+[ ] Rename `.sample.env` to `.env`
+[ ] Update your `.env` values.
+[ ] Set up your branding at `src/styles/variables.scss`
+[ ] Build out your routes on `src/App.tsx`
+[ ] Update your `package.json` name and the such
+[x] Go wild doing React things... 🍻

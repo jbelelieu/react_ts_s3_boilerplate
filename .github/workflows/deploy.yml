@@ -21,4 +21,3 @@ jobs:
         AWS_REGION: us-east-1
         USE_NPM_OVER_YARN: true
         SOURCE_DIR: build
-        CLOUDFRONT_DISTRIBUTION_ID: E1BG0VICH5Q60Z

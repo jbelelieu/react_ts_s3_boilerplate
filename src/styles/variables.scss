@@ -2,7 +2,7 @@
 /**
  * Fonts and Typography
  */
-$font: 'Signika', Arial, Helvetica, sans-serif;
+$font: arial, helvetica, sans-serif;
 $fontSize: 1em;
 $lineHeight: 1.5em;
 $fontColorPrimary: #111111;
@@ -29,9 +29,9 @@ $paddingSizeStepChange: 4px;
 /**
  * Colors
  */
-$colorGreenPrimary: #39E991;
-$colorGreenLighter: #67EEAA;
-$colorGreenDarker: #18D777;
+$colorPrimary: #000;
+$colorPrimaryLighter: #333;
+$colorPrimaryDarker: #444;
 $colorGrayPrimary: #262833;
 $colorGraySecondary: #3c3f50;
 $colorGrayLight: #d1d1d1;
@@ -39,3 +39,4 @@ $colorGrayLight: #d1d1d1;
 /**
  * Mixins
  */
+

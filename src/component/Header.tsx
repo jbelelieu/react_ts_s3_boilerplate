@@ -1,10 +1,10 @@
 import * as React from "react";
-import logo from './../imgs/logo-black-transparent.png';
+import logo from './../imgs/logo.png';
 
 function Header() {
     return (
         <header>
-            <img src={logo} alt="Pikle.it Logo" />
+            <img src={logo} alt="Logo" />
         </header>
     );
 }
