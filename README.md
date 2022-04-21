@@ -9,7 +9,11 @@
 # Todo
 
 👍 Update your `.env` values.
+
 👍 Set up your branding at `src/styles/variables.scss`
+
 👍 Build out your routes on `src/App.tsx`
+
 👍 Update your `package.json` name and the such
+
 🍻 Go wild doing React things... 🍻
