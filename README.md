@@ -9,8 +9,13 @@
 # Todo
 
 [ ] Rename `.sample.env` to `.env`
+
 [ ] Update your `.env` values.
+
 [ ] Set up your branding at `src/styles/variables.scss`
+
 [ ] Build out your routes on `src/App.tsx`
+
 [ ] Update your `package.json` name and the such
+
 [x] Go wild doing React things... 🍻
